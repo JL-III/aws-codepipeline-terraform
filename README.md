@@ -27,4 +27,4 @@ No modules.
 | <a name="input_project_name"></a> [project_name](#input_project_name) | Name prefix for created resources. | `string` |
 | <a name="input_repository_id"></a> [repository_id](#input_repository_id) | GitHub repository in the format owner/repo. | `string` |
 | <a name="input_aws_region"></a> [aws_region](#input_aws_region) | AWS region for all resources. | `string` |
-<!-- END_TF_DOCS --># example-codepipeline-terraform
+<!-- END_TF_DOCS -->
