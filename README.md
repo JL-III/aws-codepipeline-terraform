@@ -11,8 +11,7 @@
 
 No modules.
 
-#### Inputs
-
+#### Input
 | Name | Description | Type |
 |------|-------------|------|
 | <a name="input_artifact_bucket_force_destroy"></a> [artifact_bucket_force_destroy](#input_artifact_bucket_force_destroy) | Allow Terraform to delete a non-empty artifact bucket. | `bool` |

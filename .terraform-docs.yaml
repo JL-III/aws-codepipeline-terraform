@@ -1,0 +1,31 @@
+formatter: markdown table
+
+# see: https://terraform-docs.io/user-guide/configuration/sections
+sections:
+  show:
+    - header
+    - inputs
+    - providers
+    - modules
+    - footer
+
+sort:
+  enabled: true
+  by: required
+
+# see: https://terraform-docs.io/user-guide/configuration/output
+output:
+  file: README.md
+  mode: inject
+  template: |-
+    <!-- BEGIN_TF_DOCS -->
+    {{ .Content }}
+    <!-- END_TF_DOCS -->
+
+# see: https://terraform-docs.io/user-guide/configuration/settings
+settings:
+  indent: 4
+  escape: false
+  default: false
+  required: false
+  type: true

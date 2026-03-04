@@ -1,0 +1,10 @@
+aws_region               = "us-east-1"
+assume_role_arn          = "arn:aws:iam::123456789012:role/TerraformExecutionRole"
+assume_role_session_name = "terraform-codepipeline"
+# assume_role_external_id  = "optional-external-id"
+project_name             = "example-codepipeline"
+repository_id            = "your-github-user/your-repo"
+branch_name              = "main"
+codestar_connection_arn  = "arn:aws:codestar-connections:us-east-1:123456789012:connection/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+artifact_bucket_force_destroy = false
+deploy_bucket_force_destroy   = false
